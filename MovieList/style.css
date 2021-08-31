@@ -1,0 +1,47 @@
+body {
+    overflow: hidden;
+}
+
+.list-container {
+    background-color: #9980FA;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#list-title {
+    font-family: sans-serif;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.movie-list {
+
+    display: flex;
+    background-color: #dff9fb;
+    width: 405px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px;
+
+
+}
+
+.name {
+    margin-right: 20px;
+}
+
+.movie-values {
+    display: flex;
+
+}
+
+#add-btn {
+    padding: 2px 15px 2px 15px;
+    margin-bottom: 2px;
+}

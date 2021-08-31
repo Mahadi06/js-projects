@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Movie Watching List</title>
+</head>
+
+<body>
+    <div id="alert" class=" text-center">
+    </div>
+    <div class="list-container">
+        <h2 id="list-title">Movie Watching List</h2>
+        <form action="" class="movie-form" id="movie-form">
+            <input type="text" id="movie-input" placeholder="Movie name..">
+            <input type="date" id="movie-date" placeholder="Watching date..">
+            <button class="btn btn-warning" type="submit" id="add-btn">Add</button>
+        </form>
+        <section class="whole-list shadow">
+            <!-- <div class="movie-list">
+                <div class="movie-values">
+                    <p class="name ">Leonardo</p>
+                    <p class="date">7/20/1998</p>
+                </div>
+
+                <div class="actions">
+                    <button class="edit-btn"><i class="fas fa-edit text-warning"></i></button>
+                    <button class="delete-btn"><i class="fas fa-trash-alt text-danger"></i></button>
+                </div>
+
+
+
+            </div> -->
+
+
+        </section>
+
+
+        <button class="btn btn-danger mt-3 d-none" id="clear-btn">Clear List</button>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
