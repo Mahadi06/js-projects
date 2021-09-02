@@ -12,6 +12,11 @@
             height: 100vh;
         }
 
+        .projects {
+            height: 100%;
+            width: 100%;
+        }
+
         .card {
             background-position: center;
             height: 250px;
@@ -45,61 +50,71 @@
         .row {
             width: 80%;
         }
+
+        body {
+            overflow: hidden;
+        }
     </style>
 </head>
 
 <body>
-    <h2 class="text-warning text-center">JS Projects</h2>
-    <div class="container d-flex justify-content-center align-items-center" id="main-container">
 
-        <div class="row">
-            <div class="col-sm">
-                <a href="https://mahadi06.github.io/js-projects/DrumKicker/">
-                    <div class="card card-1">
-                        <div class="card-header bg-success">
-                            Drum Kicker
+    <div class="container " id="main-container">
+        <h2 class="text-warning text-center">JS Projects</h2>
+        <a id="git-link" href="https://github.com/Mahadi06/js-projects">Github Repository Link</a>
+
+
+        <div class="projects d-flex justify-content-center align-items-center">
+            <div class="row">
+                <div class="col-sm">
+                    <a href="https://mahadi06.github.io/js-projects/DrumKicker/">
+                        <div class="card card-1">
+                            <div class="card-header bg-success">
+                                Drum Kicker
+                            </div>
+
                         </div>
+                    </a>
 
-                    </div>
-                </a>
 
+                </div>
+                <div class="col-sm">
+                    <a href="https://mahadi06.github.io/js-projects/MovieList/">
+                        <div class="card shadow card-2">
+                            <div class="card-header bg-success">
+                                Movie Listing App
+                            </div>
+
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-sm">
+                    <a href="https://mahadi06.github.io/js-projects/ReviewSlider/">
+                        <div class="card card-3">
+                            <div class="card-header bg-success">
+                                Review Slider
+                            </div>
+
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-sm">
+                    <a href="https://mahadi06.github.io/Frontend-dev/module5-solution/">
+                        <div class="card card-4">
+                            <div class="card-header bg-success">
+                                China Bistro
+                            </div>
+
+                        </div>
+                    </a>
+
+                </div>
 
             </div>
-            <div class="col-sm">
-                <a href="https://mahadi06.github.io/js-projects/MovieList/">
-                    <div class="card shadow card-2">
-                        <div class="card-header bg-success">
-                            Movie Listing App
-                        </div>
-
-                    </div>
-                </a>
-
-            </div>
-            <div class="col-sm">
-                <a href="https://mahadi06.github.io/js-projects/ReviewSlider/">
-                    <div class="card card-3">
-                        <div class="card-header bg-success">
-                            Review Slider
-                        </div>
-
-                    </div>
-                </a>
-
-            </div>
-            <div class="col-sm">
-                <a href="https://mahadi06.github.io/Frontend-dev/module5-solution/">
-                    <div class="card card-4">
-                        <div class="card-header bg-success">
-                            China Bistro
-                        </div>
-
-                    </div>
-                </a>
-
-            </div>
-
         </div>
+
     </div>
 
 </body>
