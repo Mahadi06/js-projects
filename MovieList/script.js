@@ -15,7 +15,8 @@ window.addEventListener("DOMContentLoaded", loadMovieItem);
 movieForm.addEventListener('submit', addMovie);
 clearBtn.addEventListener('click', function () {
     localStorage.clear();
-    loadMovieItem();
+    fullMovieList.innerHTML = "";
+    clearBtn.classList.add('d-none');
 })
 
 function addMovie(e) {
